@@ -8,14 +8,7 @@ var swap = 0;
 
 var theme_music = true;
 
-//==============increment to swap between players===============//
 
-
-
-//============== Resets board and images ============= //
-
-
-//***********************************************OOP Board*******************************************//
 function Board_Constructor(size) {
     var self = this;
     self.number_of_cards = size*size; //count down for tie.
@@ -88,6 +81,11 @@ function Board_Constructor(size) {
             if (player1[x] === size) {
                 alert("player 1 wins!");
                 self.boardReset();
+            } else if(self.number_of_cards === 0 && player1[x] !==3){
+                alert('tie!');
+                self.boardReset();
+                break;
+
             }
         }
 
@@ -95,6 +93,11 @@ function Board_Constructor(size) {
             if (player2[x] === size) {
                 alert("player 2 wins!");
                 self.boardReset();
+            } else if(self.number_of_cards === 0 && player2[x] !==3){
+                alert('tie!');
+                self.boardReset();
+                break;
+
             }
         }
     };
@@ -105,9 +108,6 @@ function Board_Constructor(size) {
         swap++;
     }
 }
-
-//***********************************************WIN CONDITION***************************************//
-
 
 //************************************************CONSTRUCTOR*****************************************//
 function Player(player_number) {
