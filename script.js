@@ -86,16 +86,7 @@ function boardReset() {
 
     swap = 0;
     turn = 0;
-    r1 = [];
-    r2 = [];
-    r3 = [];
 
-    c1 = [];
-    c2 = [];
-    c3 = [];
-
-    d1 = [];
-    d2 = [];
 }
 //***********************************************OOP Board*******************************************//
 var board = {};
@@ -121,7 +112,7 @@ board.cards_do_your_thing = function (clickedVariable, playerTurn) {
                 //playerTurn.x.text++;
                 //var concatenate = x.text;
                 console.log(cards[x][i]);
-                playerTurn[x]++;
+                playerTurn[x] += 1;
                 win_condition_check();
             }
         }
@@ -158,18 +149,7 @@ function Player(player_number) {
     this.col3 = 0;
     this.diag1 = 0;
     this.diag2 = 0;
-    this.b2_row1 = 0;
-    this.b2_row2 = 0;
-    this.b2_row3 = 0;
-    this.b2_row4 = 0;
-    this.b2_row5 = 0;
-    this.b2_col1 = 0;
-    this.b2_col2 = 0;
-    this.b2_col3 = 0;
-    this.b2_col4 = 0;
-    this.b2_col5 = 0;
-    this.b2_diag1 = 0;
-    this.b2_diag2 = 0;
+
 }
 
 //this.row1_add = function () {
@@ -320,6 +300,7 @@ $(document).ready(function () {
             $(this).addClass("x").removeClass("black_background").addClass("yellow_background");
             $(this).attr('marked', 'true');
             board.cards_do_your_thing(variableFromCardClass, player1);
+            increment();
 
         } else {
             //player 2 gets to go
@@ -328,8 +309,9 @@ $(document).ready(function () {
             //$(this).append(y);
             $(this).addClass("o");
             board.cards_do_your_thing(variableFromCardClass, player2);
+            increment();
         }
-        increment();
+        //increment();
     });
 
 //============Append Image 5x5 board============//
