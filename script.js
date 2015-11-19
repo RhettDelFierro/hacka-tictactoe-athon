@@ -26,41 +26,41 @@ var player_1 = $("<div class='player_1'><h2>Kiddo</h2></div>"),
     box_7 = $("<div class='box seven col1 dia2' id='box_7'></div>"),
     box_8 = $("<div class='box eight col2' id='box_8'></div>"),
     box_9 = $("<div class='box nine col3 dia1' id='box_9'></div>"),
-    game_container2 = $("<div class='game_container2'></div>"),
-    b2_row1 = $("<div class='b2_row b2_row1'></div>"),
-    b2_box1 = $("<div class='b2_box b2_box1 b2_col1 b2_dia1'></div>"),
-    b2_box2 = $("<div class='b2_box b2_box2 b2_col2'></div>"),
-    b2_box3 = $("<div class='b2_box b2_box3 b2_col3'></div>"),
-    b2_box4 = $("<div class='b2_box b2_box4 b2_col4'></div>"),
-    b2_box5 = $("<div class='b2_box b2_box5 b2_col5 b2_dia2'></div>"),
-    b2_row2 = $("<div class='b2_row b2_row2'></div>"),
-    b2_box6 = $("<div class='b2_box b2_box6 b2_col1'></div>"),
-    b2_box7 = $("<div class='b2_box b2_box7 b2_col2 b2_dia1'></div>"),
-    b2_box8 = $("<div class='b2_box b2_box8 b2_col3'></div>"),
-    b2_box9 = $("<div class='b2_box b2_box9 b2_col4 b2_dia2'></div>"),
-    b2_box10 = $("<div class='b2_box b2_box10 b2_col5'></div>"),
-    b2_row3 = $("<div class='b2_row b2_row3'></div>"),
-    b2_box11 = $("<div class='b2_box b2_box11 b2_col1'></div>"),
-    b2_box12 = $("<div class='b2_box b2_box12 b2_col2'></div>"),
-    b2_box13 = $("<div class='b2_box b2_box13 b2_col3 b2_dia1 b2_dia2'></div>"),
-    b2_box14 = $("<div class='b2_box b2_box14 b2_col4'></div>"),
-    b2_box15 = $("<div class='b2_box b2_box15 b2_col5'></div>"),
-    b2_row4 = $("<div class='b2_row b2_row4'></div>"),
-    b2_box16 = $("<div class='b2_box b2_box16 b2_col1'></div>"),
-    b2_box17 = $("<div class='b2_box b2_box17 b2_col2 b2_dia2'></div>"),
-    b2_box18 = $("<div class='b2_box b2_box18 b2_col3'></div>"),
-    b2_box19 = $("<div class='b2_box b2_box19 b2_col4 b2_dia1'></div>"),
-    b2_box20 = $("<div class='b2_box b2_box20 b2_col5'></div>"),
-    b2_row5 = $("<div class='b2_row b2_row4'></div>"),
-    b2_box21 = $("<div class='b2_box b2_box21 b2_col1 b2_dia2'></div>"),
-    b2_box22 = $("<div class='b2_box b2_box22 b2_col2'></div>"),
-    b2_box23 = $("<div class='b2_box b2_box23 b2_col3'></div>"),
-    b2_box24 = $("<div class='b2_box b2_box24 b2_col4'></div>"),
-    b2_box25 = $("<div class='b2_box b2_box25 b2_col5 b2_dia1'></div>"),
-    board_options = $("<div class='board_options'></div>"),
-    board_option1 = $("<div class='board_option1'><button>3 Rows</button></div>"),
-    board_option2 = $("<div class='board_option2'><button>5 Rows</button></div>"),
-    reboot = $("<div class='reboot'><button class='reset'>Reset</button><button id='theme_music'>Stop Music</button></div>");
+    //game_container2 = $("<div class='game_container2'></div>"),
+    //b2_row1 = $("<div class='b2_row b2_row1'></div>"),
+    //b2_box1 = $("<div class='b2_box b2_box1 b2_col1 b2_dia1'></div>"),
+    //b2_box2 = $("<div class='b2_box b2_box2 b2_col2'></div>"),
+    //b2_box3 = $("<div class='b2_box b2_box3 b2_col3'></div>"),
+    //b2_box4 = $("<div class='b2_box b2_box4 b2_col4'></div>"),
+    //b2_box5 = $("<div class='b2_box b2_box5 b2_col5 b2_dia2'></div>"),
+    //b2_row2 = $("<div class='b2_row b2_row2'></div>"),
+    //b2_box6 = $("<div class='b2_box b2_box6 b2_col1'></div>"),
+    //b2_box7 = $("<div class='b2_box b2_box7 b2_col2 b2_dia1'></div>"),
+    //b2_box8 = $("<div class='b2_box b2_box8 b2_col3'></div>"),
+    //b2_box9 = $("<div class='b2_box b2_box9 b2_col4 b2_dia2'></div>"),
+    //b2_box10 = $("<div class='b2_box b2_box10 b2_col5'></div>"),
+    //b2_row3 = $("<div class='b2_row b2_row3'></div>"),
+    //b2_box11 = $("<div class='b2_box b2_box11 b2_col1'></div>"),
+    //b2_box12 = $("<div class='b2_box b2_box12 b2_col2'></div>"),
+    //b2_box13 = $("<div class='b2_box b2_box13 b2_col3 b2_dia1 b2_dia2'></div>"),
+    //b2_box14 = $("<div class='b2_box b2_box14 b2_col4'></div>"),
+    //b2_box15 = $("<div class='b2_box b2_box15 b2_col5'></div>"),
+    //b2_row4 = $("<div class='b2_row b2_row4'></div>"),
+    //b2_box16 = $("<div class='b2_box b2_box16 b2_col1'></div>"),
+    //b2_box17 = $("<div class='b2_box b2_box17 b2_col2 b2_dia2'></div>"),
+    //b2_box18 = $("<div class='b2_box b2_box18 b2_col3'></div>"),
+    //b2_box19 = $("<div class='b2_box b2_box19 b2_col4 b2_dia1'></div>"),
+    //b2_box20 = $("<div class='b2_box b2_box20 b2_col5'></div>"),
+    //b2_row5 = $("<div class='b2_row b2_row4'></div>"),
+    //b2_box21 = $("<div class='b2_box b2_box21 b2_col1 b2_dia2'></div>"),
+    //b2_box22 = $("<div class='b2_box b2_box22 b2_col2'></div>"),
+    //b2_box23 = $("<div class='b2_box b2_box23 b2_col3'></div>"),
+    //b2_box24 = $("<div class='b2_box b2_box24 b2_col4'></div>"),
+    //b2_box25 = $("<div class='b2_box b2_box25 b2_col5 b2_dia1'></div>"),
+    //board_options = $("<div class='board_options'></div>"),
+    //board_option1 = $("<div class='board_option1'><button>3 Rows</button></div>"),
+    //board_option2 = $("<div class='board_option2'><button>5 Rows</button></div>"),
+    //reboot = $("<div class='reboot'><button class='reset'>Reset</button><button id='theme_music'>Stop Music</button></div>");
 
 //==============increment to swap between players===============//
 
@@ -112,7 +112,7 @@ board.cards_do_your_thing = function (clickedVariable, playerTurn) {
                 //playerTurn.x.text++;
                 //var concatenate = x.text;
                 console.log(cards[x][i]);
-                playerTurn[x] += 1;
+                playerTurn[x]++;
                 win_condition_check();
             }
         }
@@ -152,70 +152,6 @@ function Player(player_number) {
 
 }
 
-//this.row1_add = function () {
-//    this.row1++;
-//};
-//this.row2_add = function () {
-//    this.row2++;
-//};
-//this.row3_add = function () {
-//    this.row3++;
-//};
-//this.col1_add = function () {
-//    this.col1++;
-//};
-//this.col2_add = function () {
-//    this.col2++;
-//};
-//this.col3_add = function () {
-//    this.col3++;
-//};
-//this.diag1_add = function () {
-//    this.diag1++;
-//};
-//this.diag2_add = function () {
-//    this.diag2++;
-//};
-//
-//
-//this.b2_row1_add = function () {
-//    this.row1++;
-//};
-//this.b2_row2_add = function () {
-//    this.row1++;
-//};
-//this.b2_row3_add = function () {
-//    this.row1++;
-//};
-//this.b2_row4_add = function () {
-//    this.row1++;
-//};
-//this.b2_row5_add = function () {
-//    this.row1++;
-//};
-//this.b2_col1_add = function () {
-//    this.row1++;
-//};
-//this.b2_col2_add = function () {
-//    this.row1++;
-//};
-//this.b2_col3_add = function () {
-//    this.row1++;
-//};
-//this.b2_col4_add = function () {
-//    this.row1++;
-//};
-//this.b2_col5_add = function () {
-//    this.row1++;
-//};
-//this.b2_dia1_add = function () {
-//    this.row1++;
-//};
-//this.b2_dia2_add = function () {
-//    this.row1++;
-//};
-
-
 //===============document ready function start==============//
 
 $(document).ready(function () {
@@ -235,27 +171,6 @@ $(document).ready(function () {
     $(game_container2).append(b2_row1, b2_row2, b2_row3, b2_row4, b2_row5);
     $("body").append(title, reboot, player_1, board_options, player_2);
 
-//************************************************OOP BOARD CLICK CALL**********************************//
-//    $('.box').on('click', function () {
-//        var variableFromCardClass = this.attr("id");
-//        if (swap % 2 === 0) {
-//            board.cards_do_your_thing(variableFromCardClass, player1);
-//        }
-//        else {
-//            board.cards_do_your_thing(variableFromCardClass, player2);
-//        }
-//    });
-//
-//    $('.b2_box').on('click', function () {
-//        var variableFromCardClass = this.attr("id");
-//        if (swap % 2 === 0) {
-//            board.cards_do_your_thing(variableFromCardClass, player1);
-//        }
-//        else {
-//            board.cards_do_your_thing(variableFromCardClass, player2);
-//        }
-//    });
-
 //=================3x3 Board Creation==================//
 
     $(board_option1).on('click', function () {
@@ -272,20 +187,20 @@ $(document).ready(function () {
         $(player_2).find('img').remove();
     });
 //============5x5 board Creation============//
-    $(board_option2).on('click', function () {
-
-        player1 = new Player("one");
-        player2 = new Player("two");
-        $(board_options).hide();
-        $(game_container2).show();
-        $("body").append(title, reboot, player_1, game_container2, player_2);
-        $(".b2_box").addClass("black_background");
-        size = 5;
-        $(player_1).find('h1').remove();
-        $(player_2).find('h1').remove();
-        $(player_1).find('img').remove();
-        $(player_2).find('img').remove();
-    });
+//    $(board_option2).on('click', function () {
+//
+//        player1 = new Player("one");
+//        player2 = new Player("two");
+//        $(board_options).hide();
+//        $(game_container2).show();
+//        $("body").append(title, reboot, player_1, game_container2, player_2);
+//        $(".b2_box").addClass("black_background");
+//        size = 5;
+//        $(player_1).find('h1').remove();
+//        $(player_2).find('h1').remove();
+//        $(player_1).find('img').remove();
+//        $(player_2).find('img').remove();
+//    });
 
 //=================Image Append 3x3 board==================//
     $(document).on('click', '.box', function () {
@@ -315,225 +230,29 @@ $(document).ready(function () {
     });
 
 //============Append Image 5x5 board============//
-
-    $(document).on('click', '.b2_box', function () {
-        $(this).addClass('marked');
-        console.log('hi');
-        var variableFromCardClass = $(this).attr("id");
-        if (swap % 2 === 0) {
-            //player 1 gets to go
-            //var x = $('<img>').attr('src', 'images/samurai_swords.png');
-            //$(this).append(x);
-            sword.play();
-            $(this).addClass("x").addClass("marked").removeClass("black_background").addClass("yellow_background");
-            var x = $('<img>').attr('src', 'images/samurai_swords.png');
-            board.cards_do_your_thing(variableFromCardClass, player1);
-
-        } else {
-            //player 2 gets to go
-            meteor_hammer.play();
-            var y = $('<img>').attr('src', 'images/meteor_hammer.png');
-            //$(this).append(y);
-            $(this).addClass("o");
-            board.cards_do_your_thing(variableFromCardClass, player2);
-        }
-        increment();
-    });
-
-//==================Win condition creation================//
-
-//=================3x3 win condition=====================//
-
-    //
-    //$(row_1).on('click', '.box', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.row1++;
-    //    }
-    //    else {
-    //        player2.row1++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(row_2).on('click', '.box', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.row2++;
-    //    }
-    //    else {
-    //        player2.row2++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(row_3).on('click', '.box', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.row3++;
-    //    }
-    //    else {
-    //        player2.row3++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(document).on('click', '.col1', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.col1++;
-    //    }
-    //    else {
-    //        player2.col1++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(document).on('click', '.col2', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.col2++;
-    //    }
-    //    else {
-    //        player2.col2++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(document).on('click', '.col3', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.col3++;
-    //    }
-    //    else {
-    //        player2.col3++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(document).on('click', '.dia1', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.diag1++;
-    //    }
-    //    else {
-    //        player2.diag1++;
-    //    }
-    //    win_condition_check();
-    //});
-    //
-    //$(document).on('click', '.dia2', function () {
-    //    if (swap % 2 === 0) {
-    //        player1.diag2++;
-    //    }
-    //    else {
-    //        player2.diag2++;
-    //    }
-    //    win_condition_check();
-    //});
-
-//=========5x5 win condition =============//
 //
-//    $(b2_row1).on('click', '.b2_box', function () {
+//    $(document).on('click', '.b2_box', function () {
+//        $(this).addClass('marked');
+//        console.log('hi');
+//        var variableFromCardClass = $(this).attr("id");
 //        if (swap % 2 === 0) {
-//            player1.b2_row1++;
+//            //player 1 gets to go
+//            //var x = $('<img>').attr('src', 'images/samurai_swords.png');
+//            //$(this).append(x);
+//            sword.play();
+//            $(this).addClass("x").addClass("marked").removeClass("black_background").addClass("yellow_background");
+//            var x = $('<img>').attr('src', 'images/samurai_swords.png');
+//            board.cards_do_your_thing(variableFromCardClass, player1);
+//
+//        } else {
+//            //player 2 gets to go
+//            meteor_hammer.play();
+//            var y = $('<img>').attr('src', 'images/meteor_hammer.png');
+//            //$(this).append(y);
+//            $(this).addClass("o");
+//            board.cards_do_your_thing(variableFromCardClass, player2);
 //        }
-//        else {
-//            player2.b2_row1++;
-//        }
-//        win_condition_check();
-//    });
-//    $(b2_row2).on('click', '.b2_box', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_row2++;
-//        }
-//        else {
-//            player2.b2_row2++;
-//        }
-//        win_condition_check();
-//    });
-//    $(b2_row3).on('click', '.b2_box', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_row3++;
-//        }
-//        else {
-//            player2.b2_row3++;
-//        }
-//        win_condition_check();
-//    });
-//    $(b2_row4).on('click', '.b2_box', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_row4++;
-//        }
-//        else {
-//            player2.b2_row4++;
-//        }
-//        win_condition_check();
-//    });
-//    $(b2_row5).on('click', '.b2_box', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_row5++;
-//        }
-//        else {
-//            player2.b2_row5++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_col1', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_col1++;
-//        }
-//        else {
-//            player2.b2_col1++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_col2', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_col2++;
-//        }
-//        else {
-//            player2.b2_col2++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_col3', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_col3++;
-//        }
-//        else {
-//            player2.b2_col3++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_col4', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_col4++;
-//        }
-//        else {
-//            player2.b2_col4++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_col5', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_col5++;
-//        }
-//        else {
-//            player2.b2_col5++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_dia1', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_diag1++;
-//        }
-//        else {
-//            player2.b2_diag1++;
-//        }
-//        win_condition_check();
-//    });
-//    $(document).on('click', '.b2_dia2', function () {
-//        if (swap % 2 === 0) {
-//            player1.b2_diag2++;
-//        }
-//        else {
-//            player2.b2_diag2++;
-//        }
-//        win_condition_check();
+//        increment();
 //    });
 
 //========= Reset ==============//
