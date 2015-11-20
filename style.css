@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: impact, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-image: url(images/background.jpg);
+   /* background: url(images/samurai_swords.png) left top no-repeat, url(images/meteor_hammer.png) right top no-repeat;*/
+    background-size: 10% 10%;
+    background-color: #4D2600;
+}
+
+div {
+    display: inline-block;
+}
+
+.title {
+    height: 7%;
+    width: 20%;
+    color: yellow;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 1%;
+    background-color: black;
+}
+
+.black {
+    color: black;
+    background-color: yellow;
+}
+
+.player_1 {
+    background-image: url(images/kiddo.png);
+}
+
+.player_2 {
+    background-image: url(images/o-ren_ishii.png);
+}
+
+.black {
+    color: black;
+
+}
+
+.player_1, .player_2 {
+    color: black;
+    width: 10%;
+    height: 100%;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center top;
+    position: relative;
+}
+
+.player_1 h2, .player_2 h2 {
+    margin-top: -25%;
+    color: yellow;
+    background-color: black;
+}
+.game_container1 {
+    position: relative;
+    width: 75%;
+    height: 90%;
+    text-align: center;
+    border: none;
+}
+.game_container2 {
+    position: relative;
+    width: 75%;
+    height: 90%;
+    text-align: center;
+    border: none;
+}
+.row {
+    width: 90%;
+    height: 15%;
+    border: none;
+}
+.black_background {
+    background-color: black;
+}
+.yellow_background {
+    background-color: yellow;
+}
+.box {
+    width: 20%;
+    height: 100%;
+    border: 2px solid yellow;
+}
+.box:hover {
+    background-color: white;
+}
+
+.b2_row {
+    width: 100%;
+    height: 15%;
+    border: none;
+}
+.b2_box {
+    width: 12%;
+    height: 100%;
+    border: 2px solid yellow;
+}
+.b2_box:hover {
+    background-color: white;
+}
+.board_options {
+    width: 60vw;
+    height: 80vh;
+    margin: 8% 7% 0;
+}
+.board_option1, .board_option2 {
+    width: 50%;
+    height: 50%;
+}
+button {
+    font-size: 2em;
+    font-family: impact, sans-serif;
+    background-color: yellow;
+    width: 50%;
+    height: 50%;
+    border: none;
+}
+.reboot {
+    width: 20%;
+    height: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.reboot button, #theme_music {
+    font-size: 1em;
+}
+button:focus {
+    outline: none;
+}
+button:hover {
+    color: yellow;
+    background-color: black;
+}
+.marked {
+    pointer-events: none;
+}
+.tally {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 10%;
+    height: auto;
+}
+
+.x {
+    background-image: url(images/samurai_swords.png);
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: 50%;
+}
+.o {
+    background-image: url(images/meteor_hammer.png);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: 50%;
+}
