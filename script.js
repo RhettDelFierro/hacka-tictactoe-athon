@@ -1,7 +1,6 @@
 var title = $("<div class='title'><h1>Tic - Tac - <span class='black'>Tarantino</span></h1></div>");
 var player1;
 var player2;
-var turn = 0;
 
 var size;
 var swap = 0;
@@ -9,7 +8,7 @@ var swap = 0;
 var theme_music = true;
 
 
-//no prototypes because it's just one object.
+//no prototypes because it's just one object?
 function Board_Constructor(size) {
     var self = this;
     self.number_of_cards = size*size; //count down for tie.
@@ -83,7 +82,7 @@ function Board_Constructor(size) {
                 player1.win = true;
                 alert("player 1 wins!");
                 self.boardReset();
-            } else if(self.number_of_cards === 0 && player1.win !== true){
+            } else if(self.number_of_cards === 0 && player1.x !== 3){
                 alert('tie!');
                 self.boardReset();
                 break;
@@ -96,7 +95,7 @@ function Board_Constructor(size) {
                 player2.win = true;
                 alert("player 2 wins!");
                 self.boardReset();
-            } else if(self.number_of_cards === 0 && player2.win !==true){
+            } else if(self.number_of_cards === 0 && player2.x !== 3){
                 alert('tie!');
                 self.boardReset();
                 break;
