@@ -7,6 +7,12 @@ var swap = 0;
 
 var theme_music = true;
 
+var current_set = '3x3';
+var board_options = {
+    '3x3': 3,
+    '5x5': 5
+};
+
 
 //no prototypes because it's just one object?
 function Board_Constructor(size) {
@@ -128,7 +134,7 @@ function Player(player_number) {
 //===============document ready function start==============//
 
 $(document).ready(function () {
-    board = new Board_Constructor(3);
+    board = new Board_Constructor(board_options[current_set]);
     board.create_self();
 
 
